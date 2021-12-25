@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Jhargram Art Academy</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+  <meta name="description" content="Page description">
+  <meta property="og:title" content="Jhargram Art Academy">
+  <meta property="og:description" content="Page description">
+  <meta property="og:image" content="https://www.mywebsite.com/image.jpg">
+  <meta property="og:image:alt" content="Image description">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:url" content="https://jhargramartacademy.org">
+  <link rel="canonical" href="https://jhargramartacademy.org">
+
+  <link rel="icon" href="/assets/images/favicon.ico">
+  <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+</head>
+
+<body>
+  <header>
+    <a href="#title" id="skiplink" class="skiplink">Skip to content</a>
+    <nav class="flex">
+      <a href="/" class="logo-container">
+        <img src="/assets/images/logo.png" alt="Homepage" />
+      </a>
+      <ul>
+        <li>
+            <a href="/about">About</a>
+        </li>
+        <li>
+            <a href="/projects">Projects</a>
+        </li>
+        <li>
+            <a href="/events">Events</a>
+        </li>
+        <li>
+            <a href="/contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    {{ content | safe }}
+  </main>
+  <!-- <footer>
+    <div class="flex">
+      <section class="contact-details">
+
+      </section>
+      <section class="useful-links">
+        <h3>Useful Links</h3>
+        <ul>
+          <li>
+            <a href="">Art class</a>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </footer> -->
+</body>
+</html>

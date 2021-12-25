@@ -1,0 +1,13 @@
+{
+  "name": "jhargramartacademy",
+  "version": "0.2.0",
+  "description": "Jhargram Art Academy website",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jhargram Art Academy",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
