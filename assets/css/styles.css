@@ -83,13 +83,14 @@ ul li {
 
 nav {
   background-color: var(--green);
-  border-bottom: 2px solid var(--dark-green);
+  border-bottom: 4px solid var(--dark-green);
   justify-content: space-between;
   align-items: center;
+  padding: 0.5rem 0;
 }
 
 nav > a > img {
-  max-width: 70px;
+  max-width: 50px;
 }
 
 nav > .logo-container {
@@ -101,7 +102,7 @@ nav ul {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 2rem 0;
+  padding: 0.75rem 0;
 }
 
 nav ul li {
@@ -188,6 +189,10 @@ a.primary-btn {
   text-decoration: none;
 }
 
+a.primary-btn:hover {
+  text-decoration: underline;
+}
+
 .cta-container {
   justify-content: center;
   margin: 2rem 0;
@@ -229,7 +234,7 @@ section#events {
 }
 
 section#events .container {
-  margin: 2.4rem 0;
+  margin: 2.4rem auto;
 }
 
 /* Ramkinkar section */
@@ -238,7 +243,7 @@ section#ramkinkar-mancha {
 }
 
 section#ramkinkar-mancha .container {
-  margin: 2.4rem 0;
+  margin: 2.4rem auto;
 }
 
 /* Responsive */
@@ -276,5 +281,9 @@ section#ramkinkar-mancha .container {
 
   .rect-items li.item {
     border: 5px solid var(--brown);
+  }
+
+  nav > a > img {
+    max-width: 70px;
   }
 }
