@@ -74,6 +74,11 @@ section .container {
   margin: auto;
 }
 
+section .container > img {
+  display: block;
+  margin: auto;
+}
+
 ul {
   padding: 0;
 }
@@ -132,6 +137,10 @@ svg.shape {
   text-align: center;
 }
 
+section .container + .container {
+  margin: 4rem auto;
+}
+
 /* Separators */
 .separator {
   width: 100vw;
@@ -150,6 +159,27 @@ svg.shape {
   background: linear-gradient(to left, rgba(78, 205, 196, 0.6) 0%,rgba(78, 205, 196, 0) 100%);
   border-bottom-left-radius: 50% 70%;
   border-bottom-right-radius: 50% 70%;
+}
+
+.separator-class {
+  margin-top: 3rem;
+  background-color: var(--bg-color);
+  border-bottom-left-radius: 50% 70%;
+  border-bottom-right-radius: 50% 70%;
+}
+
+/* footer section */
+footer {
+  background-color: var(--dark-green);
+  color: #FFFFFF;
+}
+
+footer a {
+  color: #FFFFFF;
+}
+
+footer .copyright-details {
+  padding: 0 1.6rem 1rem; 
 }
 
 /* Hero Section */
@@ -223,13 +253,14 @@ section#things-we-do {
 }
 
 /* About section */
-section#about .image-container,
-section#about .text-container {
+section .image-container,
+section .text-container {
   flex: 1
 }
 
 /* Event section */
-section#events {
+section#events,
+section#classes {
   background: linear-gradient(to left, rgba(78, 205, 196, 0.6) 0%,rgba(78, 205, 196, 0) 100%);
   padding-top: 6rem;
 }
@@ -258,6 +289,19 @@ section#ramkinkar-mancha .container {
 
   .flex {
     display: flex;
+    gap: 2.4rem;
+  }
+
+  .flex.flex-reverse {
+    flex-direction: row-reverse;
+  }
+
+  footer > .flex {
+    justify-content: space-around;
+  }
+
+  footer .copyright-details {
+    padding: 5rem 1.6rem;
   }
 
   h1.title {
