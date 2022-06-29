@@ -4,7 +4,7 @@ title: Dance class
 ---
 <img src="/assets/images/dance.jpeg" role="presentation" />
 <p>
-ince 1990, this section of Jhargram Art Academy has been continuously working in the field of dance. Though mainly Kathak is the dance form taught here but other forms of classical dances are also taught with almost equal importance. In our journey we have done dance productions such as Dance With Music, Hingsute Doitto(The Selfish Giant), Alor Pakhi(The Bird of Light) and many more. It has also done dance production on the Africa poem by Rabindranath Tagore with exceptional creativity. Besides teaching dance, we also have exam facilities to test a student's dancing skills. Regularly, examinations on Kathak Dance, Ranbindra Nritya and other forms of dance are held.
+Since 1990, this section of Jhargram Art Academy has been continuously working in the field of dance. Though mainly Kathak is the dance form taught here but other forms of classical dances are also taught with almost equal importance. In our journey we have done dance productions such as Dance With Music, Hingsute Doitto(The Selfish Giant), Alor Pakhi(The Bird of Light) and many more. It has also done dance production on the Africa poem by Rabindranath Tagore with exceptional creativity. Besides teaching dance, we also have exam facilities to test a student's dancing skills. Regularly, examinations on Kathak Dance, Ranbindra Nritya and other forms of dance are held.
 
 <h3>Courses</h3>
 
